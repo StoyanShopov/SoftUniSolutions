@@ -7,29 +7,51 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharpAdvanced-May-2024", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.StacksAndQueues", "01.StacksAndQueues", "{D3120837-D935-45D3-80A5-753EA1E35A79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.BasicStackOperations", "CSharpAdvanced-May-2024\01.StacksAndQueues\01.BasicStackOperations\01.BasicStackOperations.csproj", "{8F72CB0E-EAB2-4A1E-8509-9EB31E5B48D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.BasicStackOperations", "CSharpAdvanced-May-2024\01.StacksAndQueues\01.BasicStackOperations\01.BasicStackOperations.csproj", "{8F72CB0E-EAB2-4A1E-8509-9EB31E5B48D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BasicQueueOperations", "CSharpAdvanced-May-2024\01.StacksAndQueues\02.BasicQueueOperations\02.BasicQueueOperations.csproj", "{C535B276-2508-4E64-9009-35135E14AF73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.BasicQueueOperations", "CSharpAdvanced-May-2024\01.StacksAndQueues\02.BasicQueueOperations\02.BasicQueueOperations.csproj", "{C535B276-2508-4E64-9009-35135E14AF73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MaximumAndMinimumElement", "CSharpAdvanced-May-2024\01.StacksAndQueues\03.MaximumAndMinimumElement\03.MaximumAndMinimumElement.csproj", "{A8F2E26F-F35A-4A0F-B552-75576D057A80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MaximumAndMinimumElement", "CSharpAdvanced-May-2024\01.StacksAndQueues\03.MaximumAndMinimumElement\03.MaximumAndMinimumElement.csproj", "{A8F2E26F-F35A-4A0F-B552-75576D057A80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.FastFood", "CSharpAdvanced-May-2024\01.StacksAndQueues\04.FastFood\04.FastFood.csproj", "{190783D1-B9FC-439A-9337-9175F14EC0FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.FastFood", "CSharpAdvanced-May-2024\01.StacksAndQueues\04.FastFood\04.FastFood.csproj", "{190783D1-B9FC-439A-9337-9175F14EC0FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FashionBoutique", "CSharpAdvanced-May-2024\01.StacksAndQueues\05.FashionBoutique\05.FashionBoutique.csproj", "{1504F056-40A5-4890-9BFC-D2903E4800BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.FashionBoutique", "CSharpAdvanced-May-2024\01.StacksAndQueues\05.FashionBoutique\05.FashionBoutique.csproj", "{1504F056-40A5-4890-9BFC-D2903E4800BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SongsQueue", "CSharpAdvanced-May-2024\01.StacksAndQueues\06.SongsQueue\06.SongsQueue.csproj", "{D7B73EDF-16BB-4EC6-846E-F6AB3B8507B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SongsQueue", "CSharpAdvanced-May-2024\01.StacksAndQueues\06.SongsQueue\06.SongsQueue.csproj", "{D7B73EDF-16BB-4EC6-846E-F6AB3B8507B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.TruckTour", "CSharpAdvanced-May-2024\01.StacksAndQueues\07.TruckTour\07.TruckTour.csproj", "{52DA8FAF-0F7A-4840-A5F0-AE109E5F1EC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.TruckTour", "CSharpAdvanced-May-2024\01.StacksAndQueues\07.TruckTour\07.TruckTour.csproj", "{52DA8FAF-0F7A-4840-A5F0-AE109E5F1EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.BalancedParenthesis", "CSharpAdvanced-May-2024\01.StacksAndQueues\08.BalancedParenthesis\08.BalancedParenthesis.csproj", "{B1B34102-08BA-4433-83BF-5873DE9F28D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.BalancedParenthesis", "CSharpAdvanced-May-2024\01.StacksAndQueues\08.BalancedParenthesis\08.BalancedParenthesis.csproj", "{B1B34102-08BA-4433-83BF-5873DE9F28D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SimpleTextEditor", "CSharpAdvanced-May-2024\01.StacksAndQueues\09.SimpleTextEditor\09.SimpleTextEditor.csproj", "{1112D949-C6DD-4B3A-AEE3-312402546305}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.SimpleTextEditor", "CSharpAdvanced-May-2024\01.StacksAndQueues\09.SimpleTextEditor\09.SimpleTextEditor.csproj", "{1112D949-C6DD-4B3A-AEE3-312402546305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Crossroads", "CSharpAdvanced-May-2024\01.StacksAndQueues\10.Crossroads\10.Crossroads.csproj", "{4F416A60-3C16-4F74-ADD8-D86877BBA38C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.Crossroads", "CSharpAdvanced-May-2024\01.StacksAndQueues\10.Crossroads\10.Crossroads.csproj", "{4F416A60-3C16-4F74-ADD8-D86877BBA38C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.KeyRevolver", "CSharpAdvanced-May-2024\01.StacksAndQueues\11.KeyRevolver\11.KeyRevolver.csproj", "{8C1BE4E8-A534-48A5-9667-E90B69C2E4EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.KeyRevolver", "CSharpAdvanced-May-2024\01.StacksAndQueues\11.KeyRevolver\11.KeyRevolver.csproj", "{8C1BE4E8-A534-48A5-9667-E90B69C2E4EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.CupsAndBottles", "CSharpAdvanced-May-2024\01.StacksAndQueues\12.CupsAndBottles\12.CupsAndBottles.csproj", "{1BDD977B-9FE6-472D-9426-62C7366F2873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.CupsAndBottles", "CSharpAdvanced-May-2024\01.StacksAndQueues\12.CupsAndBottles\12.CupsAndBottles.csproj", "{1BDD977B-9FE6-472D-9426-62C7366F2873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.MultidimensionalArrays", "02.MultidimensionalArrays", "{98E93681-A361-4DBB-B3FC-217E0BB95F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DiagonalDifference", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\01.DiagonalDifference\01.DiagonalDifference.csproj", "{9C4CF0EB-2082-496F-8BA9-0E9E43177E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MultidimensionalArrays", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\02.MultidimensionalArrays\02.MultidimensionalArrays.csproj", "{C40F7EBB-1E2F-43B4-82F4-B2F95F6D183A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MaximalSum", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\03.MaximalSum\03.MaximalSum.csproj", "{1306996D-6DF3-4D5A-BEE8-1D26338FBAA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MatrixShuffling", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\04.MatrixShuffling\04.MatrixShuffling.csproj", "{1451BFC9-8134-463F-8415-EE112A858F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SnakeMoves", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\05.SnakeMoves\05.SnakeMoves.csproj", "{D565B0FD-6DF3-4DF3-87EF-B5662EE55267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.JaggedArrayManipulator", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\06.JaggedArrayManipulator\06.JaggedArrayManipulator.csproj", "{9375BF19-B9C9-4E98-95DC-B57D84424ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.KnightGame", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\07.KnightGame\07.KnightGame.csproj", "{F9584282-0DCD-40C2-8512-EBA020D1231B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Bombs", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\08.Bombs\08.Bombs.csproj", "{514C0294-C281-4FE1-8501-B6BB7DF22900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Miner", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\09.Miner\09.Miner.csproj", "{8BE13BF7-4B2C-4D90-848A-B6B5504A90D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.RadioactiveMutantVampireBunnies", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\10.RadioactiveMutantVampireBunnies\10.RadioactiveMutantVampireBunnies.csproj", "{5081AA6C-25F6-4119-80F9-B3382E75929A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +107,46 @@ Global
 		{1BDD977B-9FE6-472D-9426-62C7366F2873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BDD977B-9FE6-472D-9426-62C7366F2873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BDD977B-9FE6-472D-9426-62C7366F2873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4CF0EB-2082-496F-8BA9-0E9E43177E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4CF0EB-2082-496F-8BA9-0E9E43177E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4CF0EB-2082-496F-8BA9-0E9E43177E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4CF0EB-2082-496F-8BA9-0E9E43177E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40F7EBB-1E2F-43B4-82F4-B2F95F6D183A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40F7EBB-1E2F-43B4-82F4-B2F95F6D183A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40F7EBB-1E2F-43B4-82F4-B2F95F6D183A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40F7EBB-1E2F-43B4-82F4-B2F95F6D183A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1306996D-6DF3-4D5A-BEE8-1D26338FBAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1306996D-6DF3-4D5A-BEE8-1D26338FBAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1306996D-6DF3-4D5A-BEE8-1D26338FBAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1306996D-6DF3-4D5A-BEE8-1D26338FBAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1451BFC9-8134-463F-8415-EE112A858F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1451BFC9-8134-463F-8415-EE112A858F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1451BFC9-8134-463F-8415-EE112A858F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1451BFC9-8134-463F-8415-EE112A858F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D565B0FD-6DF3-4DF3-87EF-B5662EE55267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D565B0FD-6DF3-4DF3-87EF-B5662EE55267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D565B0FD-6DF3-4DF3-87EF-B5662EE55267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D565B0FD-6DF3-4DF3-87EF-B5662EE55267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9375BF19-B9C9-4E98-95DC-B57D84424ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9375BF19-B9C9-4E98-95DC-B57D84424ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9375BF19-B9C9-4E98-95DC-B57D84424ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9375BF19-B9C9-4E98-95DC-B57D84424ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9584282-0DCD-40C2-8512-EBA020D1231B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9584282-0DCD-40C2-8512-EBA020D1231B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9584282-0DCD-40C2-8512-EBA020D1231B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9584282-0DCD-40C2-8512-EBA020D1231B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514C0294-C281-4FE1-8501-B6BB7DF22900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514C0294-C281-4FE1-8501-B6BB7DF22900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514C0294-C281-4FE1-8501-B6BB7DF22900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514C0294-C281-4FE1-8501-B6BB7DF22900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE13BF7-4B2C-4D90-848A-B6B5504A90D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE13BF7-4B2C-4D90-848A-B6B5504A90D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE13BF7-4B2C-4D90-848A-B6B5504A90D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE13BF7-4B2C-4D90-848A-B6B5504A90D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5081AA6C-25F6-4119-80F9-B3382E75929A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5081AA6C-25F6-4119-80F9-B3382E75929A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5081AA6C-25F6-4119-80F9-B3382E75929A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5081AA6C-25F6-4119-80F9-B3382E75929A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +165,17 @@ Global
 		{4F416A60-3C16-4F74-ADD8-D86877BBA38C} = {D3120837-D935-45D3-80A5-753EA1E35A79}
 		{8C1BE4E8-A534-48A5-9667-E90B69C2E4EC} = {D3120837-D935-45D3-80A5-753EA1E35A79}
 		{1BDD977B-9FE6-472D-9426-62C7366F2873} = {D3120837-D935-45D3-80A5-753EA1E35A79}
+		{98E93681-A361-4DBB-B3FC-217E0BB95F9A} = {07E3BC17-F7F4-4CC7-8C97-E92C4722F4C0}
+		{9C4CF0EB-2082-496F-8BA9-0E9E43177E6D} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
+		{C40F7EBB-1E2F-43B4-82F4-B2F95F6D183A} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
+		{1306996D-6DF3-4D5A-BEE8-1D26338FBAA1} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
+		{1451BFC9-8134-463F-8415-EE112A858F25} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
+		{D565B0FD-6DF3-4DF3-87EF-B5662EE55267} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
+		{9375BF19-B9C9-4E98-95DC-B57D84424ACE} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
+		{F9584282-0DCD-40C2-8512-EBA020D1231B} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
+		{514C0294-C281-4FE1-8501-B6BB7DF22900} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
+		{8BE13BF7-4B2C-4D90-848A-B6B5504A90D4} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
+		{5081AA6C-25F6-4119-80F9-B3382E75929A} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3221F823-1A90-4D0F-BC18-B67870BC064E}
