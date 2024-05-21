@@ -1,46 +1,37 @@
-﻿namespace _06.SongsQueue
+﻿namespace _05.FashionBoutique
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string[] inputSongs = Console.ReadLine()
-                .Split(", ");
+            int[] inputValues = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
 
-            Queue<string> songsQueue = new Queue<string>(inputSongs);
+            int rackCapacity = int.Parse(Console.ReadLine());
 
-            while (true)
+            Stack<int> clothes = new Stack<int>(inputValues);
+
+            int currentRackCapacity = 0;
+            int box = 1;
+
+            while (clothes.Any())
             {
-                string[] commandInfo = Console.ReadLine().Split();
+                int currentClothe = clothes.Pop();
 
-                if (commandInfo[0] == "Play")
+                if (currentClothe + currentRackCapacity <= rackCapacity)
                 {
-                    songsQueue.Dequeue();
-
-                    if (songsQueue.Count == 0)
-                    {
-                        Console.WriteLine("No more songs!");
-                        break;
-                    }
+                    currentRackCapacity += currentClothe;
                 }
-                else if (commandInfo[0] == "Add")
+                else
                 {
-                    string songName = string.Join(" ", commandInfo.Skip(1));
-
-                    if (songsQueue.Contains(songName))
-                    {
-                        Console.WriteLine($"{songName} is already contained!");
-                    }
-                    else
-                    {
-                        songsQueue.Enqueue(songName);
-                    }
-                }
-                else if (commandInfo[0] == "Show")
-                {
-                    Console.WriteLine(string.Join(", ", songsQueue));
+                    currentRackCapacity = currentClothe;
+                    box++;
                 }
             }
+
+            Console.WriteLine(box);
         }
     }
 }
