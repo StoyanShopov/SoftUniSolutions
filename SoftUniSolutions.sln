@@ -33,25 +33,47 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.CupsAndBottles", "CSharp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.MultidimensionalArrays", "02.MultidimensionalArrays", "{98E93681-A361-4DBB-B3FC-217E0BB95F9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DiagonalDifference", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\01.DiagonalDifference\01.DiagonalDifference.csproj", "{9C4CF0EB-2082-496F-8BA9-0E9E43177E6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DiagonalDifference", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\01.DiagonalDifference\01.DiagonalDifference.csproj", "{9C4CF0EB-2082-496F-8BA9-0E9E43177E6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MultidimensionalArrays", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\02.MultidimensionalArrays\02.MultidimensionalArrays.csproj", "{C40F7EBB-1E2F-43B4-82F4-B2F95F6D183A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.MultidimensionalArrays", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\02.MultidimensionalArrays\02.MultidimensionalArrays.csproj", "{C40F7EBB-1E2F-43B4-82F4-B2F95F6D183A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MaximalSum", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\03.MaximalSum\03.MaximalSum.csproj", "{1306996D-6DF3-4D5A-BEE8-1D26338FBAA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MaximalSum", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\03.MaximalSum\03.MaximalSum.csproj", "{1306996D-6DF3-4D5A-BEE8-1D26338FBAA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MatrixShuffling", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\04.MatrixShuffling\04.MatrixShuffling.csproj", "{1451BFC9-8134-463F-8415-EE112A858F25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MatrixShuffling", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\04.MatrixShuffling\04.MatrixShuffling.csproj", "{1451BFC9-8134-463F-8415-EE112A858F25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SnakeMoves", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\05.SnakeMoves\05.SnakeMoves.csproj", "{D565B0FD-6DF3-4DF3-87EF-B5662EE55267}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SnakeMoves", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\05.SnakeMoves\05.SnakeMoves.csproj", "{D565B0FD-6DF3-4DF3-87EF-B5662EE55267}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.JaggedArrayManipulator", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\06.JaggedArrayManipulator\06.JaggedArrayManipulator.csproj", "{9375BF19-B9C9-4E98-95DC-B57D84424ACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.JaggedArrayManipulator", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\06.JaggedArrayManipulator\06.JaggedArrayManipulator.csproj", "{9375BF19-B9C9-4E98-95DC-B57D84424ACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.KnightGame", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\07.KnightGame\07.KnightGame.csproj", "{F9584282-0DCD-40C2-8512-EBA020D1231B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.KnightGame", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\07.KnightGame\07.KnightGame.csproj", "{F9584282-0DCD-40C2-8512-EBA020D1231B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Bombs", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\08.Bombs\08.Bombs.csproj", "{514C0294-C281-4FE1-8501-B6BB7DF22900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Bombs", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\08.Bombs\08.Bombs.csproj", "{514C0294-C281-4FE1-8501-B6BB7DF22900}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Miner", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\09.Miner\09.Miner.csproj", "{8BE13BF7-4B2C-4D90-848A-B6B5504A90D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.Miner", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\09.Miner\09.Miner.csproj", "{8BE13BF7-4B2C-4D90-848A-B6B5504A90D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.RadioactiveMutantVampireBunnies", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\10.RadioactiveMutantVampireBunnies\10.RadioactiveMutantVampireBunnies.csproj", "{5081AA6C-25F6-4119-80F9-B3382E75929A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.RadioactiveMutantVampireBunnies", "CSharpAdvanced-May-2024\02.MultidimensionalArrays\10.RadioactiveMutantVampireBunnies\10.RadioactiveMutantVampireBunnies.csproj", "{5081AA6C-25F6-4119-80F9-B3382E75929A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.SetsAndDictionariesAdvanced", "03.SetsAndDictionariesAdvanced", "{E799B4D8-44A0-44FF-9773-F9915E3DFE99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.UniqueUsernames", "CSharpAdvanced-May-2024\03.SetsAndDictionariesAdvanced\01.UniqueUsernames\01.UniqueUsernames.csproj", "{A3AC78C4-5CDA-4882-917F-5C04CF86AE8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SetsOfElements", "CSharpAdvanced-May-2024\03.SetsAndDictionariesAdvanced\02.SetsOfElements\02.SetsOfElements.csproj", "{6A591CD9-6528-4F73-843F-579E1155A849}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.PeriodicTable", "CSharpAdvanced-May-2024\03.SetsAndDictionariesAdvanced\03.PeriodicTable\03.PeriodicTable.csproj", "{C479F82A-AA70-48A0-B99D-6C77174D96AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.EvenTimes", "CSharpAdvanced-May-2024\03.SetsAndDictionariesAdvanced\04.EvenTimes\04.EvenTimes.csproj", "{9E4B906E-E379-4AC3-9937-D8A2C83251C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CountSymbols", "CSharpAdvanced-May-2024\03.SetsAndDictionariesAdvanced\05.CountSymbols\05.CountSymbols.csproj", "{08417FF9-09BC-4F3A-9CDF-EAA32C74DAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Wardrobe", "CSharpAdvanced-May-2024\03.SetsAndDictionariesAdvanced\06.Wardrobe\06.Wardrobe.csproj", "{29DDB801-C873-4AE9-8F8A-A46275AE4792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.TheV-Logger", "CSharpAdvanced-May-2024\03.SetsAndDictionariesAdvanced\07.TheV-Logger\07.TheV-Logger.csproj", "{83E092B6-FF3D-4B57-81A8-BF9DD2696B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Ranking", "CSharpAdvanced-May-2024\03.SetsAndDictionariesAdvanced\08.Ranking\08.Ranking.csproj", "{652CB407-1AEF-412D-BEBE-1778A861FFFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SoftUniExamResults", "CSharpAdvanced-May-2024\03.SetsAndDictionariesAdvanced\09.SoftUniExamResults\09.SoftUniExamResults.csproj", "{2E6FF1D7-3E97-4A5E-8871-F0C02244DA70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.ForceBook", "CSharpAdvanced-May-2024\03.SetsAndDictionariesAdvanced\10.ForceBook\10.ForceBook.csproj", "{4AB94A72-DF77-47F2-82DF-F3F1249175B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +169,46 @@ Global
 		{5081AA6C-25F6-4119-80F9-B3382E75929A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5081AA6C-25F6-4119-80F9-B3382E75929A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5081AA6C-25F6-4119-80F9-B3382E75929A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3AC78C4-5CDA-4882-917F-5C04CF86AE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3AC78C4-5CDA-4882-917F-5C04CF86AE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3AC78C4-5CDA-4882-917F-5C04CF86AE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3AC78C4-5CDA-4882-917F-5C04CF86AE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A591CD9-6528-4F73-843F-579E1155A849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A591CD9-6528-4F73-843F-579E1155A849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A591CD9-6528-4F73-843F-579E1155A849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A591CD9-6528-4F73-843F-579E1155A849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C479F82A-AA70-48A0-B99D-6C77174D96AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C479F82A-AA70-48A0-B99D-6C77174D96AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C479F82A-AA70-48A0-B99D-6C77174D96AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C479F82A-AA70-48A0-B99D-6C77174D96AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4B906E-E379-4AC3-9937-D8A2C83251C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4B906E-E379-4AC3-9937-D8A2C83251C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4B906E-E379-4AC3-9937-D8A2C83251C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4B906E-E379-4AC3-9937-D8A2C83251C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08417FF9-09BC-4F3A-9CDF-EAA32C74DAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08417FF9-09BC-4F3A-9CDF-EAA32C74DAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08417FF9-09BC-4F3A-9CDF-EAA32C74DAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08417FF9-09BC-4F3A-9CDF-EAA32C74DAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DDB801-C873-4AE9-8F8A-A46275AE4792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DDB801-C873-4AE9-8F8A-A46275AE4792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DDB801-C873-4AE9-8F8A-A46275AE4792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DDB801-C873-4AE9-8F8A-A46275AE4792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E092B6-FF3D-4B57-81A8-BF9DD2696B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E092B6-FF3D-4B57-81A8-BF9DD2696B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E092B6-FF3D-4B57-81A8-BF9DD2696B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E092B6-FF3D-4B57-81A8-BF9DD2696B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652CB407-1AEF-412D-BEBE-1778A861FFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652CB407-1AEF-412D-BEBE-1778A861FFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652CB407-1AEF-412D-BEBE-1778A861FFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652CB407-1AEF-412D-BEBE-1778A861FFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6FF1D7-3E97-4A5E-8871-F0C02244DA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6FF1D7-3E97-4A5E-8871-F0C02244DA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6FF1D7-3E97-4A5E-8871-F0C02244DA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6FF1D7-3E97-4A5E-8871-F0C02244DA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB94A72-DF77-47F2-82DF-F3F1249175B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB94A72-DF77-47F2-82DF-F3F1249175B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB94A72-DF77-47F2-82DF-F3F1249175B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB94A72-DF77-47F2-82DF-F3F1249175B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -176,6 +238,17 @@ Global
 		{514C0294-C281-4FE1-8501-B6BB7DF22900} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
 		{8BE13BF7-4B2C-4D90-848A-B6B5504A90D4} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
 		{5081AA6C-25F6-4119-80F9-B3382E75929A} = {98E93681-A361-4DBB-B3FC-217E0BB95F9A}
+		{E799B4D8-44A0-44FF-9773-F9915E3DFE99} = {07E3BC17-F7F4-4CC7-8C97-E92C4722F4C0}
+		{A3AC78C4-5CDA-4882-917F-5C04CF86AE8D} = {E799B4D8-44A0-44FF-9773-F9915E3DFE99}
+		{6A591CD9-6528-4F73-843F-579E1155A849} = {E799B4D8-44A0-44FF-9773-F9915E3DFE99}
+		{C479F82A-AA70-48A0-B99D-6C77174D96AB} = {E799B4D8-44A0-44FF-9773-F9915E3DFE99}
+		{9E4B906E-E379-4AC3-9937-D8A2C83251C8} = {E799B4D8-44A0-44FF-9773-F9915E3DFE99}
+		{08417FF9-09BC-4F3A-9CDF-EAA32C74DAF2} = {E799B4D8-44A0-44FF-9773-F9915E3DFE99}
+		{29DDB801-C873-4AE9-8F8A-A46275AE4792} = {E799B4D8-44A0-44FF-9773-F9915E3DFE99}
+		{83E092B6-FF3D-4B57-81A8-BF9DD2696B53} = {E799B4D8-44A0-44FF-9773-F9915E3DFE99}
+		{652CB407-1AEF-412D-BEBE-1778A861FFFA} = {E799B4D8-44A0-44FF-9773-F9915E3DFE99}
+		{2E6FF1D7-3E97-4A5E-8871-F0C02244DA70} = {E799B4D8-44A0-44FF-9773-F9915E3DFE99}
+		{4AB94A72-DF77-47F2-82DF-F3F1249175B9} = {E799B4D8-44A0-44FF-9773-F9915E3DFE99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3221F823-1A90-4D0F-BC18-B67870BC064E}
