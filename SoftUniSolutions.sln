@@ -115,25 +115,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.EvenLines", "CSharpAdvan
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.DefiningClasses", "06.DefiningClasses", "{0B8D076D-59CD-4CA0-849C-FECD2E85D3B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DefineAClassPerson", "CSharpAdvanced-May-2024\06.DefiningClasses\01.DefineAClassPerson\01.DefineAClassPerson.csproj", "{A06389A6-7F03-410D-88AE-4F12372AF9BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DefineAClassPerson", "CSharpAdvanced-May-2024\06.DefiningClasses\01.DefineAClassPerson\01.DefineAClassPerson.csproj", "{A06389A6-7F03-410D-88AE-4F12372AF9BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CreatingConstructors", "CSharpAdvanced-May-2024\06.DefiningClasses\02.CreatingConstructors\02.CreatingConstructors.csproj", "{D1FAF5A9-409A-4538-AB7D-CB7B2C218167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CreatingConstructors", "CSharpAdvanced-May-2024\06.DefiningClasses\02.CreatingConstructors\02.CreatingConstructors.csproj", "{D1FAF5A9-409A-4538-AB7D-CB7B2C218167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.OldestFamilyMember", "CSharpAdvanced-May-2024\06.DefiningClasses\03.OldestFamilyMember\03.OldestFamilyMember.csproj", "{C76F615F-E5E7-47A0-8C18-FEA51F440020}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.OldestFamilyMember", "CSharpAdvanced-May-2024\06.DefiningClasses\03.OldestFamilyMember\03.OldestFamilyMember.csproj", "{C76F615F-E5E7-47A0-8C18-FEA51F440020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.OpinionPoll", "CSharpAdvanced-May-2024\06.DefiningClasses\04.OpinionPoll\04.OpinionPoll.csproj", "{F4E09D72-0430-47B8-90C0-4A5BDD48DDAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.OpinionPoll", "CSharpAdvanced-May-2024\06.DefiningClasses\04.OpinionPoll\04.OpinionPoll.csproj", "{F4E09D72-0430-47B8-90C0-4A5BDD48DDAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.DateModifier", "CSharpAdvanced-May-2024\06.DefiningClasses\05.DateModifier\05.DateModifier.csproj", "{1F14E71C-98EB-47BE-A5EC-35C63BD6F78A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.DateModifier", "CSharpAdvanced-May-2024\06.DefiningClasses\05.DateModifier\05.DateModifier.csproj", "{1F14E71C-98EB-47BE-A5EC-35C63BD6F78A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SpeedRacing", "CSharpAdvanced-May-2024\06.DefiningClasses\06.SpeedRacing\06.SpeedRacing.csproj", "{9149495D-A974-4D63-8979-C110418C47A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SpeedRacing", "CSharpAdvanced-May-2024\06.DefiningClasses\06.SpeedRacing\06.SpeedRacing.csproj", "{9149495D-A974-4D63-8979-C110418C47A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.RawData", "CSharpAdvanced-May-2024\06.DefiningClasses\07.RawData\07.RawData.csproj", "{8A24F95B-C1D1-4E8C-AF58-BDF402F610D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.RawData", "CSharpAdvanced-May-2024\06.DefiningClasses\07.RawData\07.RawData.csproj", "{8A24F95B-C1D1-4E8C-AF58-BDF402F610D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CarSalesman", "CSharpAdvanced-May-2024\06.DefiningClasses\08.CarSalesman\08.CarSalesman.csproj", "{021245A8-FFBE-4980-91EA-67465FB23DE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.CarSalesman", "CSharpAdvanced-May-2024\06.DefiningClasses\08.CarSalesman\08.CarSalesman.csproj", "{021245A8-FFBE-4980-91EA-67465FB23DE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniParking", "CSharpAdvanced-May-2024\06.DefiningClasses\10.SoftUniParking\10.SoftUniParking.csproj", "{DEFA4587-9076-43C4-8BCD-12A98B6F3397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.SoftUniParking", "CSharpAdvanced-May-2024\06.DefiningClasses\10.SoftUniParking\10.SoftUniParking.csproj", "{DEFA4587-9076-43C4-8BCD-12A98B6F3397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.PokemonTrainer", "CSharpAdvanced-May-2024\06.DefiningClasses\09.PokemonTrainer\09.PokemonTrainer.csproj", "{3BA47735-2D3D-4C3F-8FB0-9207DB88FDD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.PokemonTrainer", "CSharpAdvanced-May-2024\06.DefiningClasses\09.PokemonTrainer\09.PokemonTrainer.csproj", "{3BA47735-2D3D-4C3F-8FB0-9207DB88FDD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.CustomStackAndQueue", "07.CustomStackAndQueue", "{74308BBB-6F1F-46DC-B916-104BB6E2E0D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CustomList", "CSharpAdvanced-May-2024\07.CustomStackAndQueue\01.CustomList\01.CustomList.csproj", "{BAEE0B63-EDF9-4A7A-9D0F-A28B5E6158AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CustomStack", "CSharpAdvanced-May-2024\07.CustomStackAndQueue\02.CustomStack\02.CustomStack.csproj", "{0DBBEDAA-1136-4712-AEBB-77EF0A4860C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CustomQueue", "CSharpAdvanced-May-2024\07.CustomStackAndQueue\03.CustomQueue\03.CustomQueue.csproj", "{1979C0C1-738C-49CC-8579-7D85535E61E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -377,6 +385,18 @@ Global
 		{3BA47735-2D3D-4C3F-8FB0-9207DB88FDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BA47735-2D3D-4C3F-8FB0-9207DB88FDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BA47735-2D3D-4C3F-8FB0-9207DB88FDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEE0B63-EDF9-4A7A-9D0F-A28B5E6158AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEE0B63-EDF9-4A7A-9D0F-A28B5E6158AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEE0B63-EDF9-4A7A-9D0F-A28B5E6158AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEE0B63-EDF9-4A7A-9D0F-A28B5E6158AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBBEDAA-1136-4712-AEBB-77EF0A4860C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBBEDAA-1136-4712-AEBB-77EF0A4860C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBBEDAA-1136-4712-AEBB-77EF0A4860C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBBEDAA-1136-4712-AEBB-77EF0A4860C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1979C0C1-738C-49CC-8579-7D85535E61E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1979C0C1-738C-49CC-8579-7D85535E61E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1979C0C1-738C-49CC-8579-7D85535E61E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1979C0C1-738C-49CC-8579-7D85535E61E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -447,6 +467,10 @@ Global
 		{021245A8-FFBE-4980-91EA-67465FB23DE3} = {0B8D076D-59CD-4CA0-849C-FECD2E85D3B3}
 		{DEFA4587-9076-43C4-8BCD-12A98B6F3397} = {0B8D076D-59CD-4CA0-849C-FECD2E85D3B3}
 		{3BA47735-2D3D-4C3F-8FB0-9207DB88FDD3} = {0B8D076D-59CD-4CA0-849C-FECD2E85D3B3}
+		{74308BBB-6F1F-46DC-B916-104BB6E2E0D3} = {07E3BC17-F7F4-4CC7-8C97-E92C4722F4C0}
+		{BAEE0B63-EDF9-4A7A-9D0F-A28B5E6158AD} = {74308BBB-6F1F-46DC-B916-104BB6E2E0D3}
+		{0DBBEDAA-1136-4712-AEBB-77EF0A4860C9} = {74308BBB-6F1F-46DC-B916-104BB6E2E0D3}
+		{1979C0C1-738C-49CC-8579-7D85535E61E3} = {74308BBB-6F1F-46DC-B916-104BB6E2E0D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3221F823-1A90-4D0F-BC18-B67870BC064E}
