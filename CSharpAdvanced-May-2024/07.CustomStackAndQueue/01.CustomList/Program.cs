@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            CustomList list = new CustomList();
+            CustomList<int> list = new CustomList<int>();
 
             for (int i = 0; i < 10; i++)
             {

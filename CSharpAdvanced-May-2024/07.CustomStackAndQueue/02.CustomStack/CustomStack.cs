@@ -6,26 +6,26 @@ using System.Threading.Tasks;
 
 namespace _02.CustomStack
 {
-    public class CustomStack
+    public class CustomStack<T>
     {
         private const int Capacity = 4;
 
-        private int[] items;
+        private T[] items;
         private int counter;
 
         public CustomStack()
         {
-            this.items = new int[Capacity];
+            this.items = new T[Capacity];
         }
 
         public int Count
             => this.counter;
 
-        public void Push(int value)
+        public void Push(T value)
         {
             if (this.counter == this.items.Length)
             {
-                int[] tempArray = new int[this.items.Length * 2];
+                T[] tempArray = new T[this.items.Length * 2];
                 Array.Copy(this.items, tempArray, this.items.Length);
                 this.items = tempArray;
             }
@@ -33,21 +33,21 @@ namespace _02.CustomStack
             this.items[this.counter++] = value;
         }
 
-        public int Pop()
+        public T Pop()
         {
             if (this.counter == 0)
             {
                 throw new InvalidOperationException();
             }
 
-            int removedElement = this.items[this.counter - 1];
+            T removedElement = this.items[this.counter - 1];
             this.items[this.counter - 1] = default;
 
             this.counter--;
 
             if (this.items.Length / 2 >= this.counter)
             {
-                int[] tempArray = new int[this.items.Length / 2];
+                T[] tempArray = new T[this.items.Length / 2];
                 Array.Copy(this.items, tempArray, tempArray.Length);
                 this.items = tempArray;
             }
@@ -55,7 +55,7 @@ namespace _02.CustomStack
             return removedElement;
         }
 
-        public int Peek()
+        public T Peek()
         {
             if (this.counter == 0)
             {
@@ -65,7 +65,7 @@ namespace _02.CustomStack
             return this.items[this.counter - 1];
         }
 
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             for(int i = this.counter - 1; i >= 0; i--) 
             {

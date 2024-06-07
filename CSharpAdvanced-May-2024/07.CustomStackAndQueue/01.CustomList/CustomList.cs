@@ -8,22 +8,23 @@ using System.Threading.Tasks;
 
 namespace _01.CustomList
 {
-    public class CustomList
+    public class CustomList<T>
+        where T : IComparable
     {
         private const int InitialSize = 2;
 
-        private int[] items;
+        private T[] items;
         private int counter = 0;
 
         public CustomList()
         {
-            this.items = new int[InitialSize];
+            this.items = new T[InitialSize];
         }
 
         public int Count
             => this.counter;
 
-        public int this[int i]
+        public T this[int i]
         {
             get
             {
@@ -37,7 +38,7 @@ namespace _01.CustomList
             }
         }
 
-        public void Add(int value)
+        public void Add(T value)
         {
             if (this.counter == this.items.Length)
             {
@@ -47,11 +48,11 @@ namespace _01.CustomList
             this.items[this.counter++] = value;
         }
 
-        public int RemoveAt(int index)
+        public T RemoveAt(int index)
         {
             ValidateRange(index);
 
-            int removedValue = this.items[index];
+            T removedValue = this.items[index];
 
             //rearrange
             for (int i = index; i < this.counter - 1; i++)
@@ -64,7 +65,7 @@ namespace _01.CustomList
             //shrink
             if (this.items.Length / 2 >= this.counter)
             {
-                int[] tempArray = new int[this.counter];
+                T[] tempArray = new T[this.counter];
                 Array.Copy(this.items, tempArray, this.counter);
                 this.items = tempArray;
             }
@@ -83,7 +84,7 @@ namespace _01.CustomList
         {
             for (int i = 0; i < this.counter; i++)
             {
-                if (value == this.items[i])
+                if (value.CompareTo(this.items[i]) == 0)
                 {
                     return true;
                 }
@@ -97,16 +98,16 @@ namespace _01.CustomList
             this.ValidateRange(firstIndex);
             this.ValidateRange(secondIndex);
 
-            int tempValue = this.items[firstIndex];
+            T tempValue = this.items[firstIndex];
             this.items[firstIndex] = this.items[secondIndex];
             this.items[secondIndex] = tempValue;
         }
 
-        public void Insert(int index, int item)
+        public void Insert(int index, T item)
         {
             this.ValidateRange(index);
 
-            int[] tempArray = new int[this.counter + 1];
+            T[] tempArray = new T[this.counter + 1];
 
             for (int i = 0; i < index; i++)
             {
@@ -135,7 +136,7 @@ namespace _01.CustomList
 
         private void Resize()
         {
-            int[] tempArray = new int[this.items.Length * 2];
+            T[] tempArray = new T[this.items.Length * 2];
             Array.Copy(this.items, tempArray, this.items.Length);
             this.items = tempArray;
         }

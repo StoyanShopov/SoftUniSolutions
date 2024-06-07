@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 
 namespace _03.CustomQueue
 {
-    public class CustomQueue
+    public class CustomQueue<T>
     {
         private const int Capacity = 4;
-        private int[] items;
+        private T[] items;
         private int counter;
 
         public CustomQueue()
         {
-            this.items = new int[Capacity];
+            this.items = new T[Capacity];
         }
 
-        public CustomQueue(params int[] items)
+        public CustomQueue(params T[] items)
         {
             this.items = items;
         }
@@ -26,11 +26,11 @@ namespace _03.CustomQueue
         public int Count
             => this.counter;
 
-        public void Enqueue(int value)
+        public void Enqueue(T value)
         {
             if (this.counter == this.items.Length)
             {
-                int[] tempArray = new int[this.items.Length * 2];
+                T[] tempArray = new T[this.items.Length * 2];
                 Array.Copy(this.items, tempArray, this.items.Length);
                 this.items = tempArray;
             }
@@ -38,14 +38,14 @@ namespace _03.CustomQueue
             this.items[this.counter++] = value;
         }
 
-        public int Dequeue()
+        public T Dequeue()
         {
             if (this.counter == 0)
             {
                 throw new InvalidOperationException();
             }
 
-            int removedElement = this.items[0];
+            T removedElement = this.items[0];
 
             this.counter--;
 
@@ -56,7 +56,7 @@ namespace _03.CustomQueue
 
             if (this.items.Length / 2 >= this.counter)
             {
-                int[] tempArray = new int[this.items.Length / 2];
+                T[] tempArray = new T[this.items.Length / 2];
                 Array.Copy(this.items, tempArray, tempArray.Length);
                 this.items = tempArray;
             }
@@ -69,7 +69,7 @@ namespace _03.CustomQueue
             return removedElement;
         }
 
-        public int Peek()
+        public T Peek()
         {
             if (this.counter == 0)
             {
@@ -82,10 +82,10 @@ namespace _03.CustomQueue
         public void Clear()
         {
             this.counter = 0;
-            this.items = new int[Capacity];
+            this.items = new T[Capacity];
         }
 
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             for (int i = 0; i < this.counter; i++)
             {
